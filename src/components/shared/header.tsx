@@ -24,7 +24,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-white dark:bg-background shadow-sm transition-colors duration-300">
-      <div className="flex justify-between items-center px-6 md:px-16 py-3">
+      <div className="flex justify-between items-center  py-3 container mx-auto px-6 md:px-16">
        
         <div>
           <Link href="/" onClick={() => setIsOpen(false)}>
