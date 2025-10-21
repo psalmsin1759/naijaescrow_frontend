@@ -20,7 +20,7 @@ export default function HeroSection() {
 
   return (
     <section>
-      <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center gap-4 md:gap-10 relative">
+      <div className="container mx-auto px-6 mb-10 md:px-12 flex flex-col-reverse md:flex-row items-center gap-4 md:gap-10 relative">
         {/* Left content */}
         <div className="w-full md:w-1/2">
           <HeroContent />
