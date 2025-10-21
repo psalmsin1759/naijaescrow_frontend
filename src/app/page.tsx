@@ -50,6 +50,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <div className="flex justify-center h-[500px]">
+
+        </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
