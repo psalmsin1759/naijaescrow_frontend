@@ -18,9 +18,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-50 dark:bg-background text-gray-700 dark:text-gray-300 py-10 border-t border-gray-200 dark:border-gray-800 transition-colors duration-300">
       <div className="container mx-auto px-6 md:px-16">
-        {/* Outer grid - responsive: 1 col (sm), 2 cols (md+) */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          {/* --- Left: Logo, description, social links --- */}
+        
           <div>
             <Link href="/" className="inline-block">
               <Image
@@ -51,9 +51,9 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* --- Right: Footer link sections --- */}
+        
           <div className="grid grid-cols-3 gap-6">
-            {/* Important Links */}
+          
             <div>
               <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">
                 Important
@@ -72,7 +72,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Support Links */}
+          
             <div>
               <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">
                 Support
@@ -91,7 +91,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Legal Links */}
+          
             <div>
               <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">
                 Legal
@@ -112,7 +112,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom section */}
+      
         <div className="mt-10 border-t border-gray-200 dark:border-gray-800 pt-5 text-center text-xs text-gray-500 dark:text-gray-500">
           © {new Date().getFullYear()} NaijaEscrow. All rights reserved.
         </div>
