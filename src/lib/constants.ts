@@ -21,14 +21,14 @@ export const footerLinks = {
     { name: "Blog", path: "/blog" },
   ],
   support: [
-    { name: "Help Center", path: "/help" },
+    { name: "Help Center", path: "/contact" },
     { name: "Contact Us", path: "/contact" },
     { name: "FAQs", path: "/faqs" },
-    { name: "Community", path: "/community" },
+    { name: "Community", path: "/blog" },
   ],
   legal: [
     { name: "Privacy Policy", path: "/privacy-policy" },
     { name: "Terms of Service", path: "/terms" },
-    { name: "Cookies Policy", path: "/cookies" },
+    { name: "Cookies Policy", path: "/terms" },
   ],
 };
