@@ -19,10 +19,7 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
-<<<<<<< HEAD
     "react-intersection-observer": "^9.16.0",
-=======
->>>>>>> 7c2eab51e81c71242a2214b524d8ba144a7fa0ad
     "swiper": "^12.0.3",
     "tailwind-merge": "^3.3.1"
   },
