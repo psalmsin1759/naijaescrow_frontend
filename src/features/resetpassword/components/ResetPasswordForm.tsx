@@ -10,6 +10,7 @@ import { resetPasswordSchema } from "../validations/resetPasswordSchema";
 import { useResetPassword } from "../hooks/useResetPassword";
 import { useSearchParams, useRouter } from "next/navigation";
 
+//
 export default function ResetPasswordForm() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
