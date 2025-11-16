@@ -36,7 +36,7 @@ export default function ResetPasswordForm() {
       setSuccess(true);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
-      setError(err.response?.data?.message || "Something went wrong");
+      setError(err.response?.data?.message || "Something went wrong here");
     }
   };
 
