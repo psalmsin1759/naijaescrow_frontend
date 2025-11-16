@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/shared/header";
 import Footer from "@/components/shared/footer";
 import { ThemeProvider } from "next-themes";
+import { AuthProvider } from "@/contexts/AuthContext";
+import Providers from "./providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +33,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased pt-20`}
       >
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          <Header />
-          {children}
-          <Footer />
+          <Providers>
+            <AuthProvider>
+              <Header />
+              {children}
+              <Footer />
+            </AuthProvider>
+          </Providers>
         </ThemeProvider>
       </body>
     </html>
