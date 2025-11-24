@@ -10,6 +10,7 @@ import { resetPasswordSchema } from "../validations/resetPasswordSchema";
 import { useResetPassword } from "../hooks/useResetPassword";
 import { useSearchParams, useRouter } from "next/navigation";
 
+//
 export default function ResetPasswordForm() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
@@ -35,7 +36,7 @@ export default function ResetPasswordForm() {
       setSuccess(true);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (err: any) {
-      setError(err.response?.data?.message || "Something went wrong");
+      setError(err.response?.data?.message || "Something went wrong here");
     }
   };
 
