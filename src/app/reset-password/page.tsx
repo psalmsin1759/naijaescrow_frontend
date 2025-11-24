@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import ResetPasswordForm from "@/features/resetpassword/components/ResetPasswordForm";
 
 export const metadata = {
-  title: "Reset Password | NaijaEscrow",
+  title: "Reset Password | NaijaEscrow. ",
   description: "Reset your password securely.",
 };
 
